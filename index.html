@@ -15,8 +15,8 @@
 
     <!-- * My CSS -->
     <link rel="stylesheet" href="css/styles.css" />
-    <link rel="stylesheet" href="css/responsive.css">
-    <link rel="stylesheet" href="css/component.css">
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/component.css" />
 
     <!-- * Cdn -->
     <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet" />
@@ -30,7 +30,6 @@
     <!-- * Navbar Section -->
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
       <div class="container d-flex justify-content-between">
-        
         <a class="navbar-brand fw-bold" href="#">Dione.</a>
         <button
           class="navbar-toggler"
@@ -83,29 +82,40 @@
       </div>
     </header>
 
-    <section class="intro my-6">
+    <!-- *Intro Section -->
+    <section class="intro py-7">
       <div class="intro-container container">
         <div class="row">
           <div class="col-lg-4">
-            <div class="image-container">
-              <img src="images/Dhiyo.jpg" class="img-fluid rounded-3">
+            <div class="image-container h-100">
+              <img src="images/Dhiyo.jpg" class="img-fluid rounded-3 h-100" />
             </div>
           </div>
-          <div class="col-lg-8 ps-5 d-flex justify-content-center align-items-center">
+          <div
+            class="col-lg-8 ps-3 ps-lg-5 mt-5 mt-lg-0 d-flex justify-content-center align-items-center"
+          >
             <div class="intro-content">
-              <div class="section-label">
-                <div class="devider"></div>
-                <p class="d-inline-block mb-0 ms-3 lead fs-5 fw-semibold">Introducing</p>
+              <div class="section-label mb-3">
+                <div class="devider d-none d-lg-inline-block"></div>
+                <p
+                  class="d-md-inline-block ms-0 ms-lg-3 lead fs-5 fw-semibold d-block mx-sm-auto text-center text-sm-start"
+                >
+                  Introducing
+                </p>
               </div>
-              <h1 class="fs-1">Let Me Introduce My Self</h1>
-              <p class="lead">
-                Halo, aku Dhiyo. Orang - orang biasa manggil aku Dito. Aku sekarang
-                adalah seorang siswa SMK yang suka belajar hal baru, dan ini
-                merupakan website pertama ku. Selain bermain dengan Web development,
-                aku juga bermain dengan UI dan UX desain. Untuk rencana kedepannya
-                aku akan mulai belajar Backend
+              <h1 class="fs-1 text-center text-sm-start">
+                Let Me Introduce My Self
+              </h1>
+              <p class="lead text-center text-sm-start">
+                Halo, aku Dhiyo. Orang - orang biasa manggil aku Dito. Aku
+                sekarang adalah seorang siswa SMK yang suka belajar hal baru,
+                dan ini merupakan website pertama ku. Selain bermain dengan Web
+                development, aku juga bermain dengan UI dan UX desain. Untuk
+                rencana kedepannya aku akan mulai belajar Backend
               </p>
-              <div class="button-section d-flex gap-3 align-items-center mt-5">
+              <div
+                class="button-section d-flex gap-3 align-items-center mt-5 flex-column flex-sm-row"
+              >
                 <div class="btn btn-primary fw-semibold">Download CV</div>
                 <p class="mb-0">or</p>
                 <div class="btn btn-secondary fw-semibold">See Linkedin</div>
@@ -116,7 +126,607 @@
       </div>
     </section>
 
-    
+    <section class="skill py-7 bg-success">
+      <div class="skill-container container">
+        <div class="section-label text-center">
+          <div class="devider d-none d-lg-inline-block"></div>
+          <p class="fs-5 fw-semibold mb-0 d-inline mx-4">Skill</p>
+          <div class="devider d-none d-lg-inline-block"></div>
+          <h1 class="fs-1 mt-2">My Skill Set</h1>
+        </div>
+        <div class="skill-main m-lg-5 m-0">
+          <div class="row row-cols-lg-2 row-cols-md-1 row-cols-sm-1 row-cols-1">
+            <div class="col skills">
+              <div class="skill-container p-4 bg-danger rounded-4">
+                <i class="fa-brands fa-figma fa-3x"></i>
+                <h3 class="mt-4">Figma</h3>
+                <p id="desc">
+                  Figma adalah alat desain UI/UX yang saya gunakan untuk membuat
+                  prototipe dan desain interaktif. Pengalaman saya dengan Figma
+                  meliputi pembuatan wireframes, desain visual, dan prototipe
+                  yang mendetail.
+                </p>
+              </div>
+            </div>
+            <div class="col skills">
+              <div class="skill-container p-4 bg-danger rounded-4">
+                <i class="fa-brands fa-html5 fa-3x"></i>
+                <h3 class="mt-4">HTML</h3>
+                <p id="desc">
+                  HTML adalah bahasa dasar yang saya gunakan untuk membangun
+                  struktur dan kerangka halaman web. Saya memiliki pemahaman
+                  mendalam tentang HTML5, termasuk penggunaan tag semantik,
+                  pengelolaan elemen-elemen form, serta optimasi untuk SEO.
+                </p>
+              </div>
+            </div>
+            <div class="col skills">
+              <div class="skill-container p-4 bg-danger rounded-4">
+                <i class="fa-brands fa-css3-alt fa-3x"></i>
+                <h3 class="mt-4">CSS</h3>
+                <p id="desc">
+                  CSS adalah alat utama saya dalam menciptakan tampilan dan
+                  nuansa yang menarik untuk halaman web. Saya mahir dalam
+                  menggunakan CSS3 untuk mendesain layout yang responsif dan
+                  estetis, menguasai teknik seperti Flexbox dan Grid untuk tata
+                  letak, serta animasi untuk meningkatkan pengalaman pengguna.
+                </p>
+              </div>
+            </div>
+            <div class="col skills">
+              <div class="skill-container p-4 bg-danger rounded-4">
+                <i class="fa-solid fa-robot fa-3x"></i>
+                <h3 class="mt-4">Robotika</h3>
+                <p id="desc">
+                  Robotika menggabungkan pengetahuan saya tentang perangkat
+                  keras dan pemrograman untuk menciptakan sistem otomatis yang
+                  kompleks. Saya memiliki pengalaman dalam merancang, membangun,
+                  dan memprogram robot menggunakan berbagai mikrokontroler,
+                  sensor, dan aktuator.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ! Porto folio modal start -->
+    <!-- ? Modal carafao -->
+    <div
+      class="modal fade"
+      id="CarafaoModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content bg-danger rounded-3">
+          <div class="modal-body" style="padding: 32px">
+            <img
+              src="images/Carafao.png"
+              class="m-0 p-0 h-100 w-100 rounded-3"
+            />
+            <h1 class="modal-title fs-4 mt-3" id="exampleModalLabel">
+              Carafao - Social Media App
+            </h1>
+            <p style="opacity: 0.7">
+              Social media app dengan nuansa biru yang terpinsiparsi dari
+              instagram. Saya membuat desain aplikasi ini dengan figma dengan
+              research yang saya lakukan, aplikasi dengan pendekatan user yang
+              lebih menenangkan akan membuat user merasa lebih nyaman berada di
+              aplikasi.
+            </p>
+            <a
+              href="https://www.behance.net/gallery/195072935/Carafao-Social-Media-App"
+              target="_blank"
+              class="btn btn-primary fw-semibold py-2 mt-4 d-block"
+              id="modalbut"
+              >View</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ? Modal Lumi -->
+    <div
+      class="modal fade"
+      id="LumiModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content bg-danger rounded-3">
+          <div class="modal-body" style="padding: 32px">
+            <img src="images/Lumi.png" class="m-0 p-0 h-100 w-100 rounded-3" />
+            <h1 class="modal-title fs-4 mt-3" id="exampleModalLabel">
+              Lumi - Gadget Store
+            </h1>
+            <p style="opacity: 0.7">
+              Sebuah online store yang berfokus dalam menjual gadget. Aku
+              membuat desain ini di figma dengan color pallate dengan warna ungu
+              memberikan kesan lebih elegan dan modern kepada website.
+            </p>
+            <a
+              href="https://www.behance.net/gallery/195986637/Lumi-Gadget-Store"
+              target="_blank"
+              class="btn btn-primary fw-semibold py-2 mt-4 d-block"
+              id="modalbut"
+              >View</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ? Modal Tuung -->
+    <div
+      class="modal fade"
+      id="TuungModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content bg-danger rounded-3">
+          <div class="modal-body" style="padding: 32px">
+            <img
+              src="images/Mockup.png"
+              class="m-0 p-0 h-100 w-100 rounded-3"
+            />
+            <h1 class="modal-title fs-4 mt-3" id="exampleModalLabel">
+              Tuung - Garden Monitoring
+            </h1>
+            <p style="opacity: 0.7">
+              Sebuah desain dashboard untuk aplikasi Garden Monitoring. Aku
+              membuat desain ini di figma dengan memfokuskan pendekatan warna
+              hijau kepada user dan fokus menyajikan data data yang krusial ini
+              akan dapat membantu user lebih mudah memahami kondisi kebun.
+            </p>
+            <a
+              href="https://www.behance.net/gallery/199396725/Plant-Master-Garden-Monitoring"
+              target="_blank"
+              class="btn btn-primary fw-semibold py-2 mt-4 d-block"
+              id="modalbut"
+              >View</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ? Modal Tuung -->
+    <div
+      class="modal fade"
+      id="EducourseModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content bg-danger rounded-3">
+          <div class="modal-body" style="padding: 32px">
+            <img
+              src="images/Educourse.png"
+              class="m-0 p-0 h-100 w-100 rounded-3"
+            />
+            <h1 class="modal-title fs-4 mt-3" id="exampleModalLabel">
+              EduCourse - Online Course
+            </h1>
+            <p style="opacity: 0.7">
+              Sebuah platform penyedia kursus online yang berfokus pada bidang
+              IT dan Digital. Dengan menonjolkan konten kursus, mentor dan
+              benefit akan menarik user untuk menjadi yakin mengikuti kursus
+              online yang disediakan.
+            </p>
+            <a
+              href="https://www.behance.net/gallery/197555063/EduCourse-Online-Course"
+              target="_blank"
+              class="btn btn-primary fw-semibold py-2 mt-4 d-block"
+              id="modalbut"
+              >View</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ? Modal Spark -->
+    <div
+      class="modal fade"
+      id="SparkModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content bg-danger rounded-3">
+          <div class="modal-body" style="padding: 32px">
+            <img
+              src="images/Spark Cover.png"
+              class="m-0 p-0 h-100 w-100 rounded-3"
+            />
+            <h1 class="modal-title fs-4 mt-3" id="exampleModalLabel">
+              Spark Social - Marketing Agency
+            </h1>
+            <p style="opacity: 0.7">
+              Sebuah Digital Marketing agency dengan sentuhan Glassmorphism
+              membuat user akan merasa terpesona dengan isi dari web yang
+              memukau. Dengan paduan Gradient akan menambah user experience.
+            </p>
+            <a
+              href="https://www.behance.net/gallery/203381361/Spark-Social-Marketing-Agency"
+              target="_blank"
+              class="btn btn-primary fw-semibold py-2 mt-4 d-block"
+              id="modalbut"
+              >View</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ? Modal Xtrade -->
+    <div
+      class="modal fade"
+      id="XtradeModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content bg-danger rounded-3">
+          <div class="modal-body" style="padding: 32px">
+            <img
+              src="images/Xtrade.png"
+              class="m-0 p-0 h-100 w-100 rounded-3"
+            />
+            <h1 class="modal-title fs-4 mt-3" id="exampleModalLabel">
+              Xtrade - Trading App
+            </h1>
+            <p style="opacity: 0.7">
+              Sebuah Platform trading online yang berofkus pada ranah Crypto
+              dengan sentuhan warna hijau dipadukan dengan latar gelap membuat
+              user lebih menikmati waktu trading mereka di depan layar.
+            </p>
+            <a
+              href="https://www.behance.net/gallery/195986429/Xtrade?"
+              target="_blank"
+              class="btn btn-primary fw-semibold py-2 mt-4 d-block"
+              id="modalbut"
+              >View</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- * Portofolio Section -->
+    <section class="project py-7">
+      <div class="project-container container">
+        <div class="section-label text-center">
+          <div class="devider d-none d-lg-inline-block"></div>
+          <p class="fs-5 fw-semibold mb-0 d-inline mx-4">Portofolio</p>
+          <div class="devider d-none d-lg-inline-block  "></div>
+          <h1 class="fs-1 mt-2">My Awesome Project</h1>
+        </div>
+        <div class="project-content">
+          <div
+            class="row row-cols-xl-3 row-cols-lg-2 row-cols-md-1 row-cols-sm-1 row-cols-1"
+          >
+            <!-- * Projects Carafao -->
+            <div class="col mt-4">
+              <div class="card">
+                <img src="images/Carafao.png" class="card-img" alt="..." />
+                <div class="card-body bg-danger">
+                  <h5 class="card-title">Carafao - Social Media App</h5>
+                  <p class="card-text">
+                    Carafao adalah sebuah social media app yang memiliki nuansa
+                    biru yang terinspirasi dari Instagram.
+                  </p>
+                  <a
+                    href="#"
+                    class="btn btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#CarafaoModal"
+                    id="navcta"
+                    >View Project</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!-- * Projects Lumi  -->
+            <div class="col mt-4">
+              <div class="card">
+                <img src="images/Lumi.png" class="card-img" alt="..." />
+                <div class="card-body bg-danger">
+                  <h5 class="card-title">Lumi - Gadget Store</h5>
+                  <p class="card-text">
+                    Lumi merupakan sebuah Online Gadget Store dengan tema Ungu
+                    yang membuat kesan lebih modern.
+                  </p>
+                  <a
+                    href="#"
+                    class="btn btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#LumiModal"
+                    id="navcta"
+                    >View Project</a
+                  >
+                </div>
+              </div>
+            </div>
+            <!-- * Tuung -->
+            <div class="col mt-4">
+              <div class="card">
+                <img src="images/Mockup.png" class="card-img" alt="..." />
+                <div class="card-body bg-danger">
+                  <h5 class="card-title">Tuung - Garden Monitor</h5>
+                  <p class="card-text">
+                    Bentuk eksplorasi ku terhadap desain dashboard. Tuung
+                    berfokus untuk memonitoring kebun.
+                  </p>
+                  <a
+                    href="#"
+                    class="btn btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#TuungModal"
+                    id="navcta"
+                    >View Project</a
+                  >
+                </div>
+              </div>
+            </div>
+            <!-- *Educourse -->
+            <div class="col mt-4">
+              <div class="card">
+                <img src="images/Educourse.png" class="card-img" alt="..." />
+                <div class="card-body bg-danger">
+                  <h5 class="card-title">Educourse - Online Course</h5>
+                  <p class="card-text">
+                    Sebuah E-Learning platform yang berfokus menyediakan kursus
+                    yang berbau dengan teknologi
+                  </p>
+                  <a
+                    href="#"
+                    class="btn btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#EducourseModal"
+                    id="navcta"
+                    >View Project</a
+                  >
+                </div>
+              </div>
+            </div>
+            <!-- * Spark Cover -->
+            <div class="col mt-4">
+              <div class="card">
+                <img src="images/Spark Cover.png" class="card-img" alt="..." />
+                <div class="card-body bg-danger">
+                  <h5 class="card-title">Spark Social</h5>
+                  <p class="card-text">
+                    Sebuah perusahaan yang menjual jasa di bidang digital
+                    marketing dengan sentuhan Glassmorphism
+                  </p>
+                  <a
+                    href="#"
+                    class="btn btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#SparkModal"
+                    id="navcta"
+                    >View Project</a
+                  >
+                </div>
+              </div>
+            </div>
+            <!-- *X Trade -->
+            <div class="col mt-4">
+              <div class="card">
+                <img src="images/Xtrade.png" class="card-img" alt="..." />
+                <div class="card-body bg-danger">
+                  <h5 class="card-title">X Trade - Trading App</h5>
+                  <p class="card-text">
+                    Sebuah aplikasi trading yang berfokus di dalam ranah crypto
+                    dengan nuansa hijau
+                  </p>
+                  <a
+                    href="#"
+                    class="btn btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#XtradeModal"
+                    id="navcta"
+                    >View Project</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="porto-cta d-flex flex-lg-row flex-sm-column gap-3 justify-content-center align-items-center mt-5"
+        >
+          <a
+            href="https://www.behance.net/dhiyolawe"
+            target="_blank"
+            class="btn btn-primary fw-semibold"
+            >My Behance</a
+          >
+          <p class="m-0">or</p>
+          <a
+            href="https://github.com/St4rkXc"
+            target="_blank"
+            class="btn btn-primary fw-semibold m-0"
+            id="navcta"
+            >My Github</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- * Gallery Section -->
+    <section class="gallery py-7 bg-success">
+      <div class="gallery-container container">
+        <div class="section-label text-center">
+          <div class="devider d-none d-lg-inline-block"></div>
+          <p class="fs-5 fw-semibold mb-0 d-inline mx-4">Gallery</p>
+          <div class="devider d-none d-lg-inline-block"></div>
+          <h1 class="fs-1 mt-2">My Point Of View</h1>
+        </div>
+        <div class="row mt-6">
+          <div class="col-xl-6">
+            <img src="images/image.jpg" alt="" class="img-fluid rounded-3" />
+          </div>
+          <div class="col-xl-6 mt-4 mt-xl-0">
+            <div class="row nested">
+              <div class="col-md-6 col-12" id="gal1">
+                <img
+                  src="images/image.jpg"
+                  alt=""
+                  class="img-fluid rounded-3"
+                />
+              </div>
+              <div class="col-md-6 col-12 mt-4 mt-md-0" id="gal2">
+                <img
+                  src="images/image.jpg"
+                  alt=""
+                  class="img-fluid rounded-3"
+                />
+              </div>
+              <div class="col-md-6 col-12 mt-4 mt-xl-3" id="gal3">
+                <img
+                  src="images/image.jpg"
+                  alt=""
+                  class="img-fluid rounded-3"
+                />
+              </div>
+              <div class="col-md-6 col-12 mt-4 mt-xl-3" id="gal4">
+                <img
+                  src="images/image.jpg"
+                  alt=""
+                  class="img-fluid rounded-3"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contactme py-7">
+      <div class="contact-container container">
+        <div class="row contact-content">
+          <div class="col-lg-5 contact-left">
+            <div class="image-container h-100">
+              <img
+                src="images/Dhiyo.jpg"
+                alt=""
+                class="rounded-3 h-100 w-100"
+              />
+            </div>
+          </div>
+          <div
+            class="col-lg-7 ps-3 ps-lg-4 d-flex flex-column justify-content-center"
+          >
+            <div class="section-label mb-3">
+              <div class="devider d-none d-md-inline-block"></div>
+              <p class="d-md-inline-block mb-0 lead fs-5 fw-semibold ms-0 ms-md-3 mt-3 mt-lg-0 d-block text-center text-md-start">
+                Contact Me
+              </p>
+            </div>
+            <div class="main-container">
+              <h1 class="fs-1 text-center text-md-start">Feel Ready to Take Collaboration With me?</h1>
+              <p class="lead text-center text-md-start">
+                You can contact me, and feel free to show or talk about your
+                problem and requests. You can contact me by my social media
+                above and sure you can use this form too!
+              </p>
+              <div class="contact-form mt-5">
+                <div class="form-control-my">
+                  <input type="value" required="" />
+                  <label>
+                    <span style="transition-delay: 0ms">N</span
+                    ><span style="transition-delay: 50ms">a</span
+                    ><span style="transition-delay: 100ms">m</span
+                    ><span style="transition-delay: 150ms">e</span>
+                  </label>
+                </div>
+
+                <div class="form-control-my mt-5">
+                  <input type="value" required="" />
+                  <label>
+                    <span style="transition-delay: 0ms">E</span
+                    ><span style="transition-delay: 50ms">m</span
+                    ><span style="transition-delay: 100ms">a</span
+                    ><span style="transition-delay: 150ms">i</span
+                    ><span style="transition-delay: 200ms">l</span>
+                  </label>
+                </div>
+
+                <div class="form-control-my mt-5">
+                  <input type="value" required="" />
+                  <label>
+                    <span style="transition-delay: 0ms">M</span
+                    ><span style="transition-delay: 50ms">e</span
+                    ><span style="transition-delay: 100ms">s</span
+                    ><span style="transition-delay: 150ms">s</span
+                    ><span style="transition-delay: 200ms">a</span
+                    ><span style="transition-delay: 200ms">g</span
+                    ><span style="transition-delay: 200ms">g</span
+                    ><span style="transition-delay: 200ms">e</span>
+                  </label>
+                </div>
+
+                <div class="btn btn-primary fw-semibold d-block mt-5">
+                  Contact Me
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="footer pt-8 pb-4 bg-success">
+      <div class="footer-contianer container">
+        <div
+          class="footer-main d-flex justify-content-center align-items-center flex-column"
+        >
+          <div class="text-container text-center">
+            <h1 class="fs-1 fw-semibold">Goodbye, See You Next Time 👋</h1>
+            <p class="lead">
+              Thank you for scrolling through my website. if you want to stay
+              connected with me, contact me with
+            </p>
+          </div>
+          <div
+            class="footer-social d-flex justify-content-center align-items-center gap-3"
+          >
+            <a href="">
+              <i class="fab fa-instagram fa-2x"></i>
+            </a>
+            <a href="">
+              <i class="fab fa-linkedin-in fa-2x"></i>
+            </a>
+            <a href="">
+              <i class="fab fa-behance fa-2x"></i>
+            </a>
+            <a href="">
+              <i class="fas fa-envelope fa-2x"></i>
+            </a>
+          </div>
+          <div class="btn btn-primary fw-semibold mt-4">
+            Get in Touch <i class="fa-solid fa-arrow-right ms-2"></i>
+          </div>
+          <hr class="mt-8 text-light bg-light w-100" />
+          <p style="opacity: 0.6" class="text-center text-sm-start">
+            Copyright © 2024 Dione Stark. All Right Reserved
+          </p>
+        </div>
+      </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <script src="js/replaceme.min.js"></script>

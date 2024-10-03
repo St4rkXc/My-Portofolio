@@ -5,10 +5,11 @@ $font-family-sans-serif: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 $primary: #ffffff;
 $secondary: #dddddd;
 $light: #ffffff;
-$danger: #101727;
+$danger: #1e2834;
 $dark: #212122;
 $body-bg: #101727;
 $body-color: #000;
+$success: #11192b;
 
 // Spacing
 $spacer: 1rem !default;
@@ -35,7 +36,7 @@ $navbar-dark-color: #fff;
 // Buttons
 $button-radius: 32px;
 $button-padding-x: 24px;
-$button-padding-y: 12px;
+$button-padding-y: 8px;
 
 $btn-border-radius: $button-radius;
 $btn-border-radius-sm: $button-radius;
@@ -65,8 +66,17 @@ $accordion-button-focus-box-shadow: white;
 $dropdown-padding-y: 0.1rem;
 
 $container-max-widths: (
-  sm: 540px,
-  md: 720px,
+  sm: 610px,
+  md: 820px,
+  lg: 960px,
+  xl: 1300px,
+  xxl: 1700px,
+) !default;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 610px,
+  md: 820px,
   lg: 960px,
   xl: 1300px,
   xxl: 1700px,
@@ -75,5 +85,7 @@ $container-max-widths: (
 $accordion-border-width: 0;
 $accordion-border-radius: 12px;
 // $accordion-inner-border-radius: 32px;
+
+$card-border-radius: 12px;
 
 @import "../node_modules/bootstrap/scss/bootstrap";

@@ -18,6 +18,11 @@ nav {
   width: max-content;
 }
 
+body{
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
 #sec-header::after {
   position: absolute;
   content: "";
@@ -94,15 +99,37 @@ nav {
   color: #212122;
 }
 
-
-
 .devider{
   display: inline-block;
   width: 100px;
   height: 2px;
   background-color: white;
+  opacity: 0.4;
   padding: 0;
   margin: 0;
   border-radius: 300px;
   margin-bottom: 6px !important;
+}
+
+.skills{
+margin-top: 1.4rem;
+}
+
+.card-img{
+  height: 300px;
+  border-radius: 12px 12px 0 0;
+  background-position: center;
+  background-size: cover; /* Ensures the image covers the entire element */
+  background-position: center; /* Centers the image within the element */
+  object-fit: cover;
+}
+
+
+
+a {
+  text-decoration: none;
+}
+
+img{
+  object-fit: cover;
 }
