@@ -800,9 +800,9 @@
                         your problem and requests. You can contact me by my
                         social media above and sure you can use this form too!
                      </p>
-                     <div class="contact-form mt-5">
+                     <form class="contact-form mt-5">
                         <div class="form-control-my">
-                           <input type="value" required="" />
+                           <input type="text" required="" class="form-name" />
                            <label>
                               <span style="transition-delay: 0ms">N</span
                               ><span style="transition-delay: 50ms">a</span
@@ -810,9 +810,8 @@
                               ><span style="transition-delay: 150ms">e</span>
                            </label>
                         </div>
-
                         <div class="form-control-my mt-5">
-                           <input type="value" required="" />
+                           <input type="text" required="" class="form-email"/>
                            <label>
                               <span style="transition-delay: 0ms">E</span
                               ><span style="transition-delay: 50ms">m</span
@@ -821,8 +820,8 @@
                               ><span style="transition-delay: 200ms">l</span>
                            </label>
                         </div>
-                        <div class="form-control-my mt-5">
-                           <input type="value" required="" />
+                        <div class="form-control-my mt-5 ">
+                           <input type="text" required="" class="form-message" />
                            <label>
                               <span style="transition-delay: 0ms">M</span
                               ><span style="transition-delay: 50ms">e</span
@@ -834,11 +833,13 @@
                               ><span style="transition-delay: 200ms">e</span>
                            </label>
                         </div>
-
-                        <div class="btn btn-primary fw-semibold d-block mt-5">
+                        <button
+                           type="submit"
+                           class="btn btn-primary fw-semibold d-block w-100 mt-5 subbtn"
+                        >
                            Contact Me
-                        </div>
-                     </div>
+                        </button>
+                     </form>
                   </div>
                </div>
             </div>
